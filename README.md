@@ -34,28 +34,20 @@ If this is useful for you, please:
 * Consider to [offer me](https://www.paypal.me/exadra37) a coffee, a beer, a dinner or any other treat 😎.
 
 
-## EXPLICIT VERSIONING
+## VERSIONING
 
-This repository uses [Explicit Versioning](https://gitlab.com/exadra37-versioning/explicit-versioning) schema.
+The tags on this repository matches the Fuzzy Finder versions for the Docker
+Images being released.
 
 
 ## BRANCHES
 
 Branches are created as demonstrated [here](docs/how-to/create_branches.md).
 
-This are the type of branches we can see at any moment in the repository:
+### Permanent Branches
 
-* `master` - issues and milestones branches will be merged here. Don't use it in
-              production.
-* `last-stable-release` - matches the last stable tag created. Useful for
-                           automation tools. Doesn't guarantee backwards
-                           compatibility.
-* `4-fix-some-bug` - each issue will have is own branch for development.
-* `milestone-12_add-some-new-feature` - all Milestone issues will start, tracked and merged
-                             here.
-
-Only `master` and `last-stable-release` branches will be permanent ones in the
-repository and all other ones will be removed once they are merged.
+* `master` - Development docker tags will be created from this branch.
+* `latest` - The latest docker images for any supported version are created from this branch.
 
 
 ## DISCLAIMER
