@@ -49,7 +49,25 @@ or
 fuzzy-finder --hd /path/to/dir
 ```
 
+#### Run a specific version
 
+For a specific Fuzzy Finder version...
+
+```bash
+fuzzy-finder --tag 0.17.3
+```
+
+For the latest stable docker tag...
+
+```bash
+fuzzy-finder --tag latest
+```
+
+For the latest development docker tag...
+
+```bash
+fuzzy-finder --tag dev-latest
+```
 
 ---
 

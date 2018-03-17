@@ -13,7 +13,7 @@ Please feel free to inspect first the content of the script [here](https://gitla
 From inside a `bin` folder in your path just run:
 
 ```bash
-curl https://gitlab.com/exadra37-docker/cli-tool/fuzzy-finder/raw/latest/bin/fuzzy-finder && chmod 700 fuzzy-finder
+curl -O https://gitlab.com/exadra37-docker/cli-tool/fuzzy-finder/raw/latest/bin/fuzzy-finder && chmod 700 fuzzy-finder
 ```
 
 Depending on the operating system you may need to run the above command with
