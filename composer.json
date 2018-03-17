@@ -1,0 +1,26 @@
+{
+    "name": "exadra37-docker/cli-tool/fuzzy-finder",
+    "description": "Dockerizes the awesome Fuzzy Finder",
+    "keywords": [
+        "Exadra37",
+        "fuzzy-finder",
+        "docker",
+        "dockerize"
+    ],
+    "homepage": "https://gitlab.com/exadra37-docker/cli-tool/fuzzy-finder",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Exadra37",
+            "email": "exadra37@gmail.com",
+            "homepage": "https://exadra37.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "support": {
+        "issues": "https://gitlab.com/groups/exadra37-docker/cli-tool/fuzzy-finder/issues",
+        "source": "https://gitlab.com/exadra37-docker/cli-tool/fuzzy-finder/tree/master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
